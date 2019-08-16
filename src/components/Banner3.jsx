@@ -7,7 +7,6 @@ import 'rc-texty/assets/index.css';
 class Banner extends React.PureComponent {
   render() {
     const { ...currentProps } = this.props;
-    console.log("yyyyy",currentProps)
     const { dataSource, isMobile } = currentProps;
     delete currentProps.dataSource;
     delete currentProps.isMobile;

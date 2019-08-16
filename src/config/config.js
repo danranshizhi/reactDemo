@@ -1,4 +1,14 @@
 import logoImg from '@images/logo.png'
+import one from '@images/one.png'
+import two from '@images/two.png'
+import three from '@images/three.png'
+import four from '@images/four.png'
+import five from '@images/five.png'
+import six from '@images/six.png'
+import seven from '@images/seven.png'
+import eight from '@images/eight.png'
+import nine from '@images/nine.png'
+// http://zwaep.chinawljr.com
 export const Nav20DataSource = {
   isScrollLink: true,
   wrapper: { className: 'header2 home-page-wrapper jrhtw9ph4a-editor_css' },
@@ -116,156 +126,166 @@ export const Content80DataSource = {
     children: [
       {
         name: 'block0',
-        md: 6,
+        md: 12,
         xs: 24,
         className: 'content8-block-wrapper',
         children: {
           className: 'content8-block',
           img: {
             className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+            children: one,
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: { className: 'content8-title', children: '熟练使用html+css,还原设计稿，编写规范的css/scss文件等，掌握js核心语法，实现页面交互效果' },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: '',
           },
         },
       },
       {
         name: 'block1',
-        md: 6,
+        md: 12,
         xs: 24,
         className: 'content8-block-wrapper',
         children: {
           className: 'content8-block',
           img: {
             className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+            children: two,
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: { className: 'content8-title', children: '掌握前端主流框架react,对页面进行组件化，配合react-router,实现组件的切换及状态变化；配合react-redux,实现数据页面共享等；' },
           content: {
             className: 'content8-content',
             children: '公司+职位 信息暂缺',
           },
-        },
+        }
       },
       {
         name: 'block2',
-        md: 6,
+        md: 12,
         xs: 24,
         className: 'content8-block-wrapper',
         children: {
           className: 'content8-block',
           img: {
             className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+            children: three,
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: { className: 'content8-title', children: '熟练使用antd,bootstrap,element-ui,layui等ui框架；' },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: '',
           },
         },
       },
       {
         name: 'block3',
-        md: 6,
+        md: 12,
         xs: 24,
         className: 'content8-block-wrapper',
         children: {
           className: 'content8-block',
           img: {
             className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+            children: four,
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: { className: 'content8-title', children: '熟练ajax,axios,实现前后端数据交互' },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: '',
           },
         },
       },
       {
         name: 'block4',
-        md: 6,
+        md: 12,
         xs: 24,
         className: 'content8-block-wrapper',
         children: {
           className: 'content8-block',
           img: {
             className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+            children: five,
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: { className: 'content8-title', children: '熟练使用echarts,highcharts等,实现可视化图表，掌握百度地图api等' },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: '',
           },
         },
       },
       {
         name: 'block5',
-        md: 6,
+        md: 12,
         xs: 24,
         className: 'content8-block-wrapper',
         children: {
           className: 'content8-block',
           img: {
             className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+            children: six,
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: { className: 'content8-title', children: '熟悉前端主流框架vue,可用vue-cli快速搭建项目;' },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: '',
           },
         },
       },
       {
         name: 'block6',
-        md: 6,
+        md: 12,
         xs: 24,
         className: 'content8-block-wrapper',
         children: {
           className: 'content8-block',
           img: {
             className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+            children: seven,
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: { className: 'content8-title', children: '熟悉webpack，可用webpack快速构建react,vue等项目；' },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: '',
           },
         },
       },
       {
         name: 'block7',
-        md: 6,
+        md: 12,
         xs: 24,
         className: 'content8-block-wrapper',
         children: {
           className: 'content8-block',
           img: {
             className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+            children: eight,
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: { className: 'content8-title', children: '熟悉node+websocket，node+mqtt之间的通信；' },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: '',
           },
         },
       },
+      {
+        name: 'block8',
+        md: 12,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children: nine,
+          },
+          title: { className: 'content8-title', children: '熟练使用parse+mongodb，熟悉Mysql，可实现数据库中数据的增删改查等操作' },
+          content: {
+            className: 'content8-content',
+            children: '',
+          },
+        },
+      }
     ],
   },
 };
@@ -354,7 +374,7 @@ export const Content90DataSource = {
       {
         name: 'block3',
         className: 'block-wrapper',
-        // playScale: 0.3,
+        playScale: 0.3,
         children: {
           imgWrapper: { className: 'image-wrapper' },
           textWrapper: { className: 'text-wrapper' },
@@ -372,7 +392,7 @@ export const Content90DataSource = {
               '使用Echarts实现数据展示中的折线图等，并对获得的数据处理，实现渲染'
             ] },
         },
-      },
+      }
     ],
   },
 };
@@ -585,3 +605,8 @@ export const Footer20DataSource = {
     ],
   },
 };
+
+
+
+
+      

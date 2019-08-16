@@ -25,7 +25,7 @@ class Content8 extends React.PureComponent {
             <img src={children.img.children} alt="img" />
           </div>
           <h2 {...children.title}>{children.title.children}</h2>
-          <div {...children.content}>{children.content.children}</div>
+          {/* <div {...children.content}>{children.content.children}</div> */}
         </div>
       </TweenOne>
     );
